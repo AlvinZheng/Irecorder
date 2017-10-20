@@ -14,6 +14,19 @@
 		64706D3A1F998D5E0068DCE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64706D381F998D5E0068DCE2 /* LaunchScreen.storyboard */; };
 		64706D451F998D5E0068DCE2 /* IrecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64706D441F998D5E0068DCE2 /* IrecorderTests.swift */; };
 		64706D501F998D5E0068DCE2 /* IrecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64706D4F1F998D5E0068DCE2 /* IrecorderUITests.swift */; };
+		64706D631F99CFF90068DCE2 /* hjr.m in Sources */ = {isa = PBXBuildFile; fileRef = 64706D621F99CFF90068DCE2 /* hjr.m */; };
+		64706D691F99D4120068DCE2 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64706D681F99D4120068DCE2 /* iflyMSC.framework */; };
+		64706D6B1F99D5320068DCE2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 64706D6A1F99D5320068DCE2 /* libz.tbd */; };
+		64706D6D1F99D53E0068DCE2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64706D6C1F99D53E0068DCE2 /* AVFoundation.framework */; };
+		64706D6F1F99D54B0068DCE2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64706D6E1F99D54B0068DCE2 /* SystemConfiguration.framework */; };
+		64706D711F99D55E0068DCE2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64706D701F99D55E0068DCE2 /* CoreTelephony.framework */; };
+		64706D731F99D56B0068DCE2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64706D721F99D56B0068DCE2 /* AudioToolbox.framework */; };
+		64706D751F99D5780068DCE2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64706D741F99D5780068DCE2 /* CoreLocation.framework */; };
+		64706D771F99D5830068DCE2 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64706D761F99D5830068DCE2 /* Contacts.framework */; };
+		64706D791F99D58F0068DCE2 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64706D781F99D58F0068DCE2 /* AddressBook.framework */; };
+		64706D7B1F99D5A80068DCE2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64706D7A1F99D5A80068DCE2 /* QuartzCore.framework */; };
+		64706D7D1F99D5B00068DCE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64706D7C1F99D5B00068DCE2 /* CoreGraphics.framework */; };
+		64706D801F99E7320068DCE2 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64706D7F1F99E7320068DCE2 /* ISRDataHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,21 @@
 		64706D4B1F998D5E0068DCE2 /* IrecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64706D4F1F998D5E0068DCE2 /* IrecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrecorderUITests.swift; sourceTree = "<group>"; };
 		64706D511F998D5E0068DCE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64706D621F99CFF90068DCE2 /* hjr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hjr.m; sourceTree = "<group>"; };
+		64706D641F99D0BE0068DCE2 /* Irecorder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Irecorder-Bridging-Header.h"; sourceTree = "<group>"; };
+		64706D681F99D4120068DCE2 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = Irecorder/Third/iflyMSC.framework; sourceTree = "<group>"; };
+		64706D6A1F99D5320068DCE2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		64706D6C1F99D53E0068DCE2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		64706D6E1F99D54B0068DCE2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		64706D701F99D55E0068DCE2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		64706D721F99D56B0068DCE2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		64706D741F99D5780068DCE2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		64706D761F99D5830068DCE2 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		64706D781F99D58F0068DCE2 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		64706D7A1F99D5A80068DCE2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		64706D7C1F99D5B00068DCE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64706D7E1F99E7320068DCE2 /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
+		64706D7F1F99E7320068DCE2 /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64706D7D1F99D5B00068DCE2 /* CoreGraphics.framework in Frameworks */,
+				64706D7B1F99D5A80068DCE2 /* QuartzCore.framework in Frameworks */,
+				64706D791F99D58F0068DCE2 /* AddressBook.framework in Frameworks */,
+				64706D771F99D5830068DCE2 /* Contacts.framework in Frameworks */,
+				64706D751F99D5780068DCE2 /* CoreLocation.framework in Frameworks */,
+				64706D731F99D56B0068DCE2 /* AudioToolbox.framework in Frameworks */,
+				64706D711F99D55E0068DCE2 /* CoreTelephony.framework in Frameworks */,
+				64706D6F1F99D54B0068DCE2 /* SystemConfiguration.framework in Frameworks */,
+				64706D6D1F99D53E0068DCE2 /* AVFoundation.framework in Frameworks */,
+				64706D6B1F99D5320068DCE2 /* libz.tbd in Frameworks */,
+				64706D691F99D4120068DCE2 /* iflyMSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +120,7 @@
 				64706D431F998D5E0068DCE2 /* IrecorderTests */,
 				64706D4E1F998D5E0068DCE2 /* IrecorderUITests */,
 				64706D2D1F998D5E0068DCE2 /* Products */,
+				64706D651F99D1750068DCE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +139,14 @@
 			children = (
 				64706D2F1F998D5E0068DCE2 /* AppDelegate.swift */,
 				64706D311F998D5E0068DCE2 /* ViewController.swift */,
+				64706D7E1F99E7320068DCE2 /* ISRDataHelper.h */,
+				64706D7F1F99E7320068DCE2 /* ISRDataHelper.m */,
+				64706D621F99CFF90068DCE2 /* hjr.m */,
 				64706D331F998D5E0068DCE2 /* Main.storyboard */,
 				64706D361F998D5E0068DCE2 /* Assets.xcassets */,
 				64706D381F998D5E0068DCE2 /* LaunchScreen.storyboard */,
 				64706D3B1F998D5E0068DCE2 /* Info.plist */,
+				64706D641F99D0BE0068DCE2 /* Irecorder-Bridging-Header.h */,
 			);
 			path = Irecorder;
 			sourceTree = "<group>";
@@ -123,6 +167,24 @@
 				64706D511F998D5E0068DCE2 /* Info.plist */,
 			);
 			path = IrecorderUITests;
+			sourceTree = "<group>";
+		};
+		64706D651F99D1750068DCE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64706D7C1F99D5B00068DCE2 /* CoreGraphics.framework */,
+				64706D7A1F99D5A80068DCE2 /* QuartzCore.framework */,
+				64706D781F99D58F0068DCE2 /* AddressBook.framework */,
+				64706D761F99D5830068DCE2 /* Contacts.framework */,
+				64706D741F99D5780068DCE2 /* CoreLocation.framework */,
+				64706D721F99D56B0068DCE2 /* AudioToolbox.framework */,
+				64706D701F99D55E0068DCE2 /* CoreTelephony.framework */,
+				64706D6E1F99D54B0068DCE2 /* SystemConfiguration.framework */,
+				64706D6C1F99D53E0068DCE2 /* AVFoundation.framework */,
+				64706D6A1F99D5320068DCE2 /* libz.tbd */,
+				64706D681F99D4120068DCE2 /* iflyMSC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +255,8 @@
 				TargetAttributes = {
 					64706D2B1F998D5E0068DCE2 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 8TQN657P43;
+						DevelopmentTeam = MGZ3JJXKHG;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					64706D3F1F998D5E0068DCE2 = {
@@ -262,7 +325,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64706D631F99CFF90068DCE2 /* hjr.m in Sources */,
 				64706D321F998D5E0068DCE2 /* ViewController.swift in Sources */,
+				64706D801F99E7320068DCE2 /* ISRDataHelper.m in Sources */,
 				64706D301F998D5E0068DCE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,12 +478,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8TQN657P43;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = MGZ3JJXKHG;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Irecorder/Third",
+				);
 				INFOPLIST_FILE = Irecorder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alvin.Irecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Irecorder/Irecorder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -426,12 +500,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8TQN657P43;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = MGZ3JJXKHG;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Irecorder/Third",
+				);
 				INFOPLIST_FILE = Irecorder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alvin.Irecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Irecorder/Irecorder-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

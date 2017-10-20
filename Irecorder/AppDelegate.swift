@@ -7,6 +7,7 @@
 //
 
 import UIKit
+let appid = "59e95405"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        initialIFlySDK()
         return true
     }
 
@@ -41,6 +43,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    private func initialIFlySDK() {
+        // Override point for customization after application launch.
+        IFlySetting.setLogFile(.LVL_ALL)
+        IFlySetting.showLogcat(true)
 
+        let paths = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true)
+        let cachePath = paths[0]
+        IFlySetting.setLogFilePath(cachePath)
+        let appIdstring = "appid=\(appid)"
+        IFlySpeechUtility.createUtility(appIdstring)
+    }
 }
 

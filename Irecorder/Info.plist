@@ -34,5 +34,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>get voice</string>
+    <key>NSLocationUsageDescription</key>
+    <string>get location</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>get location</string>
+    <key>NSContactsUsageDescription</key>
+    <string>get contacts</string>
 </dict>
 </plist>
