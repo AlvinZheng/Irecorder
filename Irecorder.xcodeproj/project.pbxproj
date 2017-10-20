@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64706D301F998D5E0068DCE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64706D2F1F998D5E0068DCE2 /* AppDelegate.swift */; };
+		64706D321F998D5E0068DCE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64706D311F998D5E0068DCE2 /* ViewController.swift */; };
+		64706D351F998D5E0068DCE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64706D331F998D5E0068DCE2 /* Main.storyboard */; };
+		64706D371F998D5E0068DCE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64706D361F998D5E0068DCE2 /* Assets.xcassets */; };
+		64706D3A1F998D5E0068DCE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64706D381F998D5E0068DCE2 /* LaunchScreen.storyboard */; };
+		64706D451F998D5E0068DCE2 /* IrecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64706D441F998D5E0068DCE2 /* IrecorderTests.swift */; };
+		64706D501F998D5E0068DCE2 /* IrecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64706D4F1F998D5E0068DCE2 /* IrecorderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64706D411F998D5E0068DCE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64706D241F998D5D0068DCE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64706D2B1F998D5E0068DCE2;
+			remoteInfo = Irecorder;
+		};
+		64706D4C1F998D5E0068DCE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64706D241F998D5D0068DCE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64706D2B1F998D5E0068DCE2;
+			remoteInfo = Irecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64706D2C1F998D5E0068DCE2 /* Irecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Irecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64706D2F1F998D5E0068DCE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64706D311F998D5E0068DCE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64706D341F998D5E0068DCE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64706D361F998D5E0068DCE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64706D391F998D5E0068DCE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64706D3B1F998D5E0068DCE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64706D401F998D5E0068DCE2 /* IrecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64706D441F998D5E0068DCE2 /* IrecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrecorderTests.swift; sourceTree = "<group>"; };
+		64706D461F998D5E0068DCE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64706D4B1F998D5E0068DCE2 /* IrecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64706D4F1F998D5E0068DCE2 /* IrecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrecorderUITests.swift; sourceTree = "<group>"; };
+		64706D511F998D5E0068DCE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64706D291F998D5E0068DCE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64706D3D1F998D5E0068DCE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64706D481F998D5E0068DCE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64706D231F998D5D0068DCE2 = {
+			isa = PBXGroup;
+			children = (
+				64706D2E1F998D5E0068DCE2 /* Irecorder */,
+				64706D431F998D5E0068DCE2 /* IrecorderTests */,
+				64706D4E1F998D5E0068DCE2 /* IrecorderUITests */,
+				64706D2D1F998D5E0068DCE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64706D2D1F998D5E0068DCE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64706D2C1F998D5E0068DCE2 /* Irecorder.app */,
+				64706D401F998D5E0068DCE2 /* IrecorderTests.xctest */,
+				64706D4B1F998D5E0068DCE2 /* IrecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64706D2E1F998D5E0068DCE2 /* Irecorder */ = {
+			isa = PBXGroup;
+			children = (
+				64706D2F1F998D5E0068DCE2 /* AppDelegate.swift */,
+				64706D311F998D5E0068DCE2 /* ViewController.swift */,
+				64706D331F998D5E0068DCE2 /* Main.storyboard */,
+				64706D361F998D5E0068DCE2 /* Assets.xcassets */,
+				64706D381F998D5E0068DCE2 /* LaunchScreen.storyboard */,
+				64706D3B1F998D5E0068DCE2 /* Info.plist */,
+			);
+			path = Irecorder;
+			sourceTree = "<group>";
+		};
+		64706D431F998D5E0068DCE2 /* IrecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				64706D441F998D5E0068DCE2 /* IrecorderTests.swift */,
+				64706D461F998D5E0068DCE2 /* Info.plist */,
+			);
+			path = IrecorderTests;
+			sourceTree = "<group>";
+		};
+		64706D4E1F998D5E0068DCE2 /* IrecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64706D4F1F998D5E0068DCE2 /* IrecorderUITests.swift */,
+				64706D511F998D5E0068DCE2 /* Info.plist */,
+			);
+			path = IrecorderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64706D2B1F998D5E0068DCE2 /* Irecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64706D541F998D5E0068DCE2 /* Build configuration list for PBXNativeTarget "Irecorder" */;
+			buildPhases = (
+				64706D281F998D5E0068DCE2 /* Sources */,
+				64706D291F998D5E0068DCE2 /* Frameworks */,
+				64706D2A1F998D5E0068DCE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Irecorder;
+			productName = Irecorder;
+			productReference = 64706D2C1F998D5E0068DCE2 /* Irecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64706D3F1F998D5E0068DCE2 /* IrecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64706D571F998D5E0068DCE2 /* Build configuration list for PBXNativeTarget "IrecorderTests" */;
+			buildPhases = (
+				64706D3C1F998D5E0068DCE2 /* Sources */,
+				64706D3D1F998D5E0068DCE2 /* Frameworks */,
+				64706D3E1F998D5E0068DCE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64706D421F998D5E0068DCE2 /* PBXTargetDependency */,
+			);
+			name = IrecorderTests;
+			productName = IrecorderTests;
+			productReference = 64706D401F998D5E0068DCE2 /* IrecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64706D4A1F998D5E0068DCE2 /* IrecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64706D5A1F998D5E0068DCE2 /* Build configuration list for PBXNativeTarget "IrecorderUITests" */;
+			buildPhases = (
+				64706D471F998D5E0068DCE2 /* Sources */,
+				64706D481F998D5E0068DCE2 /* Frameworks */,
+				64706D491F998D5E0068DCE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64706D4D1F998D5E0068DCE2 /* PBXTargetDependency */,
+			);
+			name = IrecorderUITests;
+			productName = IrecorderUITests;
+			productReference = 64706D4B1F998D5E0068DCE2 /* IrecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64706D241F998D5D0068DCE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = alvin;
+				TargetAttributes = {
+					64706D2B1F998D5E0068DCE2 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8TQN657P43;
+						ProvisioningStyle = Automatic;
+					};
+					64706D3F1F998D5E0068DCE2 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8TQN657P43;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64706D2B1F998D5E0068DCE2;
+					};
+					64706D4A1F998D5E0068DCE2 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8TQN657P43;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64706D2B1F998D5E0068DCE2;
+					};
+				};
+			};
+			buildConfigurationList = 64706D271F998D5E0068DCE2 /* Build configuration list for PBXProject "Irecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64706D231F998D5D0068DCE2;
+			productRefGroup = 64706D2D1F998D5E0068DCE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64706D2B1F998D5E0068DCE2 /* Irecorder */,
+				64706D3F1F998D5E0068DCE2 /* IrecorderTests */,
+				64706D4A1F998D5E0068DCE2 /* IrecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64706D2A1F998D5E0068DCE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64706D3A1F998D5E0068DCE2 /* LaunchScreen.storyboard in Resources */,
+				64706D371F998D5E0068DCE2 /* Assets.xcassets in Resources */,
+				64706D351F998D5E0068DCE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64706D3E1F998D5E0068DCE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64706D491F998D5E0068DCE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64706D281F998D5E0068DCE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64706D321F998D5E0068DCE2 /* ViewController.swift in Sources */,
+				64706D301F998D5E0068DCE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64706D3C1F998D5E0068DCE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64706D451F998D5E0068DCE2 /* IrecorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64706D471F998D5E0068DCE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64706D501F998D5E0068DCE2 /* IrecorderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64706D421F998D5E0068DCE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64706D2B1F998D5E0068DCE2 /* Irecorder */;
+			targetProxy = 64706D411F998D5E0068DCE2 /* PBXContainerItemProxy */;
+		};
+		64706D4D1F998D5E0068DCE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64706D2B1F998D5E0068DCE2 /* Irecorder */;
+			targetProxy = 64706D4C1F998D5E0068DCE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64706D331F998D5E0068DCE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64706D341F998D5E0068DCE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64706D381F998D5E0068DCE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64706D391F998D5E0068DCE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64706D521F998D5E0068DCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64706D531F998D5E0068DCE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64706D551F998D5E0068DCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8TQN657P43;
+				INFOPLIST_FILE = Irecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alvin.Irecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		64706D561F998D5E0068DCE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8TQN657P43;
+				INFOPLIST_FILE = Irecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alvin.Irecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		64706D581F998D5E0068DCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8TQN657P43;
+				INFOPLIST_FILE = IrecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alvin.IrecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Irecorder.app/Irecorder";
+			};
+			name = Debug;
+		};
+		64706D591F998D5E0068DCE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8TQN657P43;
+				INFOPLIST_FILE = IrecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alvin.IrecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Irecorder.app/Irecorder";
+			};
+			name = Release;
+		};
+		64706D5B1F998D5E0068DCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8TQN657P43;
+				INFOPLIST_FILE = IrecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alvin.IrecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Irecorder;
+			};
+			name = Debug;
+		};
+		64706D5C1F998D5E0068DCE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8TQN657P43;
+				INFOPLIST_FILE = IrecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alvin.IrecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Irecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64706D271F998D5E0068DCE2 /* Build configuration list for PBXProject "Irecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64706D521F998D5E0068DCE2 /* Debug */,
+				64706D531F998D5E0068DCE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64706D541F998D5E0068DCE2 /* Build configuration list for PBXNativeTarget "Irecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64706D551F998D5E0068DCE2 /* Debug */,
+				64706D561F998D5E0068DCE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64706D571F998D5E0068DCE2 /* Build configuration list for PBXNativeTarget "IrecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64706D581F998D5E0068DCE2 /* Debug */,
+				64706D591F998D5E0068DCE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64706D5A1F998D5E0068DCE2 /* Build configuration list for PBXNativeTarget "IrecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64706D5B1F998D5E0068DCE2 /* Debug */,
+				64706D5C1F998D5E0068DCE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64706D241F998D5D0068DCE2 /* Project object */;
+}
